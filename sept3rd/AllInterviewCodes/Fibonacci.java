@@ -12,12 +12,14 @@ public class Fibonacci {
         for (int i = 0; i <= 10; i++) {
             c = a + b;
 
-            System.out.println(c);
+            // System.out.println(c);
 
             a = b;
             b = c;
+            System.out.println(c);
 
         }
+
 
     }
 
