@@ -11,7 +11,7 @@ public class Array003 {
         fruit[1] = "watermelon";
 
         //System.out.println(fruit[1]);
-        for (int k = 0; k <= fruit.length; k++)//start the value of variable in loop for array with 0
+        for (int k = 0; k < fruit.length; k++)//start the value of variable in loop for array with 0
         {
             System.out.println(fruit[k]);
 
